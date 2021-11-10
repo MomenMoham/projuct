@@ -1,0 +1,137 @@
+/* Start Global Rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+body {
+    background-image: url("../img/IMG-20211105-WA0007.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 2000px;
+    overflow: hidden;
+}
+
+
+/* Start Global Rules */
+
+
+/* Start Header */
+
+.header {
+    background-color: #fefefe;
+    width: 100%;
+    height: 70px;
+    /* display: none; */
+    position: fixed;
+    overflow: hidden;
+}
+
+.header .container {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 70px;
+    position: relative;
+}
+
+.header .container ul a {
+    list-style: none;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    transition: 2s;
+}
+
+.one:hover {
+    color: wheat;
+    width: 200px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 40px;
+}
+
+
+/* End Header */
+
+
+/* start img */
+
+.body-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* display: none; */
+}
+
+.ne {
+    background-image: linear-gradient(to left top, blue, red);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    border-radius: 150px;
+    /* display: none; */
+}
+
+
+/* ============================ NO T ==================================*/
+
+.video {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    border-radius: 45px;
+}
+
+
+/* end img */
+
+.control {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.control>div {
+    position: absolute;
+    left: 150px;
+}
+
+.control h1 {
+    font-size: 70px;
+}
+
+.control p {
+    margin-top: 15px;
+}
+
+
+/* ============================================================================= */
+
+
+/* .control-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+
+
+/*
+flex-direction: column;
+
+}
+.img {
+    height: 70px;
+}
+*/
